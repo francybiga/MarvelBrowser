@@ -37,3 +37,6 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
+
+#Private proj files
+Keys.xcconfig

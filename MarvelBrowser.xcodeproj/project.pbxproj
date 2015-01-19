@@ -40,6 +40,8 @@
 		2576A4BC1A6D12C9004BACA2 /* MarvelBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2576A4C11A6D12C9004BACA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2576A4C21A6D12C9004BACA2 /* MarvelBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelBrowserTests.m; sourceTree = "<group>"; };
+		2576A4CE1A6D2643004BACA2 /* Keys.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.example.xcconfig; sourceTree = "<group>"; };
+		2576A4D01A6D26BE004BACA2 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,8 @@
 		2576A49A1A6D12C9004BACA2 = {
 			isa = PBXGroup;
 			children = (
+				2576A4D01A6D26BE004BACA2 /* Config.xcconfig */,
+				2576A4CE1A6D2643004BACA2 /* Keys.example.xcconfig */,
 				2576A4A51A6D12C9004BACA2 /* MarvelBrowser */,
 				2576A4BF1A6D12C9004BACA2 /* MarvelBrowserTests */,
 				2576A4A41A6D12C9004BACA2 /* Products */,
@@ -265,6 +269,7 @@
 /* Begin XCBuildConfiguration section */
 		2576A4C41A6D12C9004BACA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2576A4D01A6D26BE004BACA2 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -306,6 +311,7 @@
 		};
 		2576A4C51A6D12C9004BACA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2576A4D01A6D26BE004BACA2 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -412,6 +418,7 @@
 				2576A4C81A6D12C9004BACA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2576A4C91A6D12C9004BACA2 /* Build configuration list for PBXNativeTarget "MarvelBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				2576A4CB1A6D12C9004BACA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

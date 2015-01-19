@@ -1,0 +1,9 @@
+//
+//  Config.xcconfig
+//  MarvelBrowser
+//
+//  Created by francesco bigagnoli on 19/01/15.
+//  Copyright (c) 2015 francesco bigagnoli. All rights reserved.
+//
+#include "Keys.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) MARVEL_PUBLIC_KEY=@\"$(MARVEL_PUBLIC_KEY)\" MARVEL_PRIVATE_KEY=@\"$(MARVEL_PRIVATE_KEY)\"

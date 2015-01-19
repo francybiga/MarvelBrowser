@@ -1,0 +1,9 @@
+//
+//  Keys.example.xcconfig
+//  MarvelBrowser
+//
+//  Created by francesco bigagnoli on 19/01/15.
+//  Copyright (c) 2015 francesco bigagnoli. All rights reserved.
+//
+MARVEL_PUBLIC_KEY = YOUR_KEY_HERE
+MARVEL_PRIVATE_KEY = YOUR_KEY_HERE
