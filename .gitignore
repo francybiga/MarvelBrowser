@@ -37,6 +37,3 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
-
-#Proj private files
-MarvelKeys.m
